@@ -1,25 +1,15 @@
 ---
 layout: about
-title: 主页
+title: Home
 permalink: /
-subtitle: "Ph.D. Candidate · Transfer Learning, Cross-Modal Learning, Multi-view Clustering & Computer Vision"
-nav: true
-nav_order: 1
+subtitle: "Ph.D. Candidate · Transfer Learning, Cross-Modal Retrieval, Multi-view Learning & Computer Vision"
+nav: false
 social: true
 news: false
 latest_posts: false
 selected_papers: false
 ---
 
-我叫郑泽锋（Zefeng Zheng），目前在广东工业大学计算机学院攻读计算机科学与技术博士学位。此前于广东工业大学获得硕士学位（2023），并于广东海洋大学获得软件工程学士学位（2020）。
+I received the M.S. degree in Computer Science and Technology from the School of Computer Science and Technology, Guangdong University of Technology (GDUT), Guangzhou, China, in 2023, and am currently pursuing the Ph.D. degree in the same field at GDUT, both under the supervision of Prof. [Shaohua Teng](https://jyxq.gdut.edu.cn/lxwm.jsp?urltype=news.NewsContentUrl&wbtreeid=1163&wbnewsid=4219). Since September 2025, I have been a visiting student at The Hong Kong Polytechnic University (PolyU), Hong Kong, under the supervision of Prof. [Qing Li](https://www.polyu.edu.hk/riaiot/people/riaiot-people/prof-li-qing/?sc_lang=en).
 
-研究聚焦于**迁移学习、跨模态学习、多视图聚类与计算机视觉**。论文作者身份及科研记录可在 [Google Scholar](https://scholar.google.com/citations?user=dpISYowAAAAJ) 和 [ORCID](https://orcid.org/0000-0003-0748-4346) 公开查阅。
-
-### 研究兴趣
-
-- 迁移学习与无监督域适应
-- 跨模态学习与跨模态检索
-- 多视图聚类与子空间学习
-- 计算机视觉
-
-访问 [简历](/cv/) 查看完整背景与精选成果；访问 [论文成果](/publications/) 浏览公开文献。
+My current research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision. I have published more than 20 papers in Science Citation Index (SCI)-indexed journals and China Computer Federation (CCF)-recommended conferences, including IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE/CAA Journal of Automatica Sinica (JAS), Pattern Recognition (PR), and IEEE Transactions on Multimedia (TMM). I have also served as a reviewer for several international journals, including IEEE Transactions on Multimedia (TMM), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), and IEEE/CAA Journal of Automatica Sinica (JAS).

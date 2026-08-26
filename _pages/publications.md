@@ -1,26 +1,60 @@
 ---
 layout: page
 permalink: /publications/
-title: 论文成果
+title: Publications
 description: "Publications confirmed from public author, publisher, and institutional records."
 nav: true
 nav_order: 3
 ---
 
-完整论文条目由 BibTeX 自动生成。作者身份可交叉查阅 [Google Scholar](https://scholar.google.com/citations?user=dpISYowAAAAJ) 与 [ORCID](https://orcid.org/0000-0003-0748-4346)。
+Publication entries are generated from BibTeX. My publication record and researcher identifiers are available through [Google Scholar](https://scholar.google.com/citations?user=dpISYowAAAAJ) and [ORCID](https://orcid.org/0000-0003-0748-4346).
 
-## 第一作者（含导师 1 位、学生 2 位）及通讯作者论文
+Rank labels refer to the venue rather than the individual paper. CCF categories follow the CCF recommended list, while JCR quartiles are based on the latest publicly available data used here; categories and quartiles may vary by year and subject category.
 
-<div class="publications">
-
-{% bibliography --query @*[classification=first_or_corresponding] %}
-
+<div class="publication-filters" role="group" aria-label="Publication filters">
+  <button type="button" class="btn btn-sm btn-primary mr-2" data-publication-filter="all" aria-pressed="true">All</button>
+  <button type="button" class="btn btn-sm btn-outline-primary mr-2" data-publication-filter="lead" aria-pressed="false">First/Corresponding</button>
+  <button type="button" class="btn btn-sm btn-outline-primary" data-publication-filter="collaborative" aria-pressed="false">Collaborative</button>
 </div>
 
-## 合作论文
+<div data-publication-panel="lead">
+  <h2>First-Author and Corresponding-Author Publications</h2>
+  <div class="publications">
 
-<div class="publications">
+  {% bibliography --query @*[classification=first_or_corresponding] %}
 
-{% bibliography --query @*[classification=collaborative] %}
-
+  </div>
 </div>
+
+<div data-publication-panel="collaborative">
+  <h2>Collaborative Publications</h2>
+  <div class="publications">
+
+  {% bibliography --query @*[classification=collaborative] %}
+
+  </div>
+</div>
+
+<script>
+  (() => {
+    const buttons = Array.from(document.querySelectorAll("[data-publication-filter]"));
+    const panels = Array.from(document.querySelectorAll("[data-publication-panel]"));
+
+    const setPublicationView = (view) => {
+      panels.forEach((panel) => {
+        panel.hidden = view !== "all" && panel.dataset.publicationPanel !== view;
+      });
+      buttons.forEach((button) => {
+        const active = button.dataset.publicationFilter === view;
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+        button.classList.toggle("btn-primary", active);
+        button.classList.toggle("btn-outline-primary", !active);
+      });
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => setPublicationView(button.dataset.publicationFilter));
+    });
+    setPublicationView("all");
+  })();
+</script>

@@ -3,12 +3,13 @@
 # institutional records on 2026-08-26.
 cv:
   name: "Zefeng Zheng (郑泽锋)"
-  label: "Ph.D. Candidate in Computer Science and Technology"
+  label: "Ph.D. Candidate and Visiting Student in Computer Science"
   email: "coding495@163.com"
   location: "Guangzhou, China"
   summary: >-
-    Ph.D. candidate at Guangdong University of Technology. Research interests include
-    transfer learning, cross-modal learning, multi-view clustering, and computer vision.
+    I am a Ph.D. candidate in Computer Science and Technology at Guangdong University of Technology (GDUT),
+    Guangzhou, China, under the supervision of Prof. Shaohua Teng. My research interests include transfer learning, cross-modal retrieval, multi-view
+    learning, and computer vision.
   social_networks:
     - network: GitHub
       username: zzf495
@@ -23,8 +24,12 @@ cv:
         studyType: "Ph.D. Candidate"
         start_date: "2023"
         end_date: "present"
-        highlights:
-          - "Research interests: transfer learning, cross-modal learning, multi-view clustering, and computer vision."
+      - institution: "The Hong Kong Polytechnic University"
+        location: "Hong Kong, China"
+        area: "Department of Computing"
+        studyType: "Visiting Student"
+        start_date: "2025-09"
+        end_date: "2026-09"
       - institution: "Guangdong University of Technology"
         location: "Guangzhou, China"
         area: "Computer Science and Technology"
@@ -48,12 +53,7 @@ cv:
           - "Conduct research on transfer learning, cross-modal learning, multi-view clustering, and computer vision."
 
     Academic Community Service:
-      - company: "Academic Peer Review"
-        position: "Peer Reviewer"
-        start_date: "2021"
-        end_date: "present"
-        highlights:
-          - "Reviewer for: IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TSMC: Applications and Reviews, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, Pattern Recognition, Information Sciences, Expert Systems with Applications, Knowledge-Based Systems, and other journals."
+      - bullet: "Reviewer for: IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TSMC: Applications and Reviews, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, Pattern Recognition, Information Sciences, Expert Systems with Applications, Knowledge-Based Systems, and other journals."
 
     Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"

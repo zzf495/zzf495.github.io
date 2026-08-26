@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: 简历
+title: CV
 permalink: /cv/
 nav: true
 nav_order: 2
