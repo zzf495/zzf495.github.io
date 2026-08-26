@@ -3,7 +3,7 @@
 # institutional records on 2026-08-26.
 cv:
   name: "Zefeng Zheng (郑泽锋)"
-  label: "Ph.D. Candidate and Visiting Student in Computer Science"
+  label: "Ph.D. Candidate in Computer Science and Technology"
   email: "coding495@163.com"
   location: "Guangzhou, China"
   summary: >-
@@ -46,16 +46,17 @@ cv:
     Awards and Honors:
       - bullet: "**Outstanding Young Research Talent International Training Program**, Guangdong University of Technology, 2025."
       - bullet: "**National Scholarship**, Guangdong University of Technology, 2025."
-      - bullet: "**Top Innovative Postgraduate Talent Training Program**, Guangdong University of Technology, 2024 (successfully completed and passed the final assessment)."
+      - bullet: "**Top Innovative Postgraduate Talent Training Program**, Guangdong University of Technology, 2024."
       - bullet: "**Best Paper Award**, International Conference on Web Information Systems Engineering (WISE), 2023."
-      - bullet: "**First-Class Scholarship**, received for seven years during undergraduate and postgraduate studies."
       - bullet: "**Postgraduate Recommendation**, Guangdong Ocean University, 2020."
       - bullet: "**National Scholarship**, Guangdong Ocean University, 2019."
+      - bullet: "**First-Class Scholarship**, received for seven years during undergraduate and postgraduate studies."
 
     Academic Community Service:
-      - bullet: "**Reviewer for**:IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, PR, INS, ESWA, KBS, and WISE2026."
+      - label: "Reviewer for"
+        details: "IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, PR, INS, ESWA, KBS, and WISE2026."
 
-    Selected Publications:
+    Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -65,7 +66,7 @@ cv:
           - "Yiqing He"
           - "NaiQi Wu"
         journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-        date: "2026"
+        releaseDate: "2026"
       - title: "Multi-Granularity Decomposition and Hierarchical Semantics Learning for Domain Adaptation Retrieval"
         authors:
           - "Shaohua Teng"
@@ -76,7 +77,7 @@ cv:
           - "Hongshu Li"
           - "Zefeng Zheng"
         journal: "IEEE Transactions on Multimedia"
-        date: "2026"
+        releaseDate: "2026"
       - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -85,7 +86,7 @@ cv:
           - "Wei Zhang"
           - "NaiQi Wu"
         journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-        date: "2025"
+        releaseDate: "2025"
         url: "https://doi.org/10.1109/TPAMI.2024.3507534"
       - title: "Micro-community Domain Adaptation"
         authors:
@@ -95,14 +96,14 @@ cv:
           - "Naiqi Wu"
           - "Wei Zhang"
         journal: "Pattern Recognition"
-        date: "2025"
+        releaseDate: "2025"
         url: "https://doi.org/10.1016/j.patcog.2024.111270"
       - title: "Consensus and Diversity-fusion Partial-view-shared Multi-view Learning"
         authors:
           - "Luyao Teng"
           - "Zefeng Zheng"
         journal: "Neurocomputing"
-        date: "2025"
+        releaseDate: "2025"
         url: "https://doi.org/10.1016/j.neucom.2024.128687"
       - title: "Kernel Transfer Learning With Dual-Direction Semantic Similarity for Domain Adaptation"
         authors:
@@ -112,7 +113,7 @@ cv:
           - "Naiqi Wu"
           - "Shaohua Teng"
         journal: "IEEE/CAA Journal of Automatica Sinica"
-        date: "2023"
+        releaseDate: "2023"
         url: "https://doi.org/10.1109/JAS.2023.123342"
       - title: "Adversarial Graph Embedding with Cross-domain Semantic Consistency for Unsupervised Domain Adaptation"
         authors:
@@ -122,7 +123,7 @@ cv:
           - "Luyao Teng"
           - "Wei Zhang"
         journal: "IEEE/CAA Journal of Automatica Sinica"
-        date: "2023"
+        releaseDate: "2023"
         url: "https://doi.org/10.1109/JAS.2023.123318"
       - title: "Selected Confidence Sample Labeling for Domain Adaptation"
         authors:
@@ -133,5 +134,5 @@ cv:
           - "Wei Zhang"
           - "Lunke Fei"
         journal: "Neurocomputing"
-        date: "2023"
+        releaseDate: "2023"
         url: "https://doi.org/10.1016/j.neucom.2023.126624"

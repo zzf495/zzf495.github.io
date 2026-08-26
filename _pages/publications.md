@@ -2,12 +2,10 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "Publications confirmed from public author, publisher, and institutional records."
+description: "Rank labels refer to the venue rather than the individual paper. CCF categories follow the China Computer Federation (CCF) recommended list, while Journal Citation Reports (JCR) quartiles are based on the latest publicly available data. Categories and quartiles may vary by year and subject category."
 nav: true
 nav_order: 3
 ---
-
-Rank labels refer to the venue rather than the individual paper. CCF categories follow the China Computer Federation (CCF) recommended list, while Journal Citation Reports (JCR) quartiles are based on the latest publicly available data. Categories and quartiles may vary by year and subject category.
 
 <style>
   .publications .publication-rank {
