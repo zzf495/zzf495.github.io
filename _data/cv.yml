@@ -35,6 +35,7 @@ cv:
         location: "Guangdong, China"
         area: "Software Engineering"
         studyType: "B.S."
+        start_date: "2016"
         end_date: "2020"
 
     Experience:
@@ -46,6 +47,14 @@ cv:
         highlights:
           - "Conduct research on transfer learning, cross-modal learning, multi-view clustering, and computer vision."
 
+    Academic Community Service:
+      - company: "Academic Peer Review"
+        position: "Peer Reviewer"
+        start_date: "2021"
+        end_date: "present"
+        highlights:
+          - "Reviewer for: IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TSMC: Applications and Reviews, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, Pattern Recognition, Information Sciences, Expert Systems with Applications, Knowledge-Based Systems, and other journals."
+
     Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
         authors:
@@ -56,6 +65,17 @@ cv:
           - "Yiqing He"
           - "NaiQi Wu"
         publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        releaseDate: "2026"
+      - title: "Multi-Granularity Decomposition and Hierarchical Semantics Learning for Domain Adaptation Retrieval"
+        authors:
+          - "Shaohua Teng"
+          - "Chang Yuan"
+          - "Luyao Teng"
+          - "Wei Zhang"
+          - "Naiqi Wu"
+          - "Hongshu Li"
+          - "Zefeng Zheng"
+        publisher: "IEEE Transactions on Multimedia"
         releaseDate: "2026"
       - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
         authors:
