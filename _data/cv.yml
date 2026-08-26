@@ -3,9 +3,8 @@
 # institutional records on 2026-08-26.
 cv:
   name: "Zefeng Zheng (郑泽锋)"
-  email: "coding495@163.com"
+  email: "zhengzefeng2@mails.gdut.edu.cn"
   location: "Guangzhou, China"
-  summary: "I am a Ph.D. candidate in Computer Science and Technology at Guangdong University of Technology (GDUT), Guangzhou, China, under the supervision of Prof. Shaohua Teng. My research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision."
   social_networks:
     - network: GitHub
       username: zzf495
