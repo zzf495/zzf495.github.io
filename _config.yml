@@ -1,0 +1,121 @@
+# Site identity
+title: "Zefeng Zheng"
+first_name: "Zefeng"
+last_name: "Zheng"
+email: "coding495@163.com"
+description: "Ph.D. candidate in computer science | machine learning, domain adaptation, and clustering"
+footer_text: "© 2026 Zefeng Zheng · Built with al-folio"
+keywords: "Zefeng Zheng, 郑泽锋, domain adaptation, transfer learning, clustering, machine learning"
+lang: "zh-CN"
+icon: "🎓"
+
+# Deploy as a GitHub user site named `zzf495.github.io`.
+url: "https://zzf495.github.io"
+baseurl: ""
+
+# al-folio v1 starter / runtime contract
+theme: al_folio_core
+plugins:
+  - jekyll-feed
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_citations
+
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: "4.1.18"
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: true
+    distill:
+      enabled: false
+  compat:
+    bootstrap:
+      enabled: false
+
+# Layout preferences
+navbar_fixed: true
+footer_fixed: false
+max_width: 930px
+back_to_top: true
+last_updated: false
+enable_navbar_social: true
+search_enabled: false
+
+# No analytics or comments are enabled.
+enable_google_analytics: false
+enable_cookie_consent: false
+
+external_services:
+  github_readme_stats_url: "https://github-stats-extended.vercel.app"
+  github_profile_trophy_url: "https://github-profile-trophy.vercel.app"
+
+third_party_libraries:
+  fontawesome:
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"
+  academicons:
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css"
+  scholar-icons:
+    url:
+      css: "https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+
+collections:
+  projects:
+    output: false
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+include:
+  - _pages
+
+scholar:
+  last_name: [Zheng]
+  first_name: [Zefeng]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
