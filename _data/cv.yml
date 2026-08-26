@@ -43,19 +43,22 @@ cv:
         start_date: "2016"
         end_date: "2020"
 
-    Experience:
-      - company: "Guangdong University of Technology"
-        position: "Ph.D. Researcher"
-        location: "Guangzhou, China"
-        start_date: "2023"
-        end_date: "present"
-        highlights:
-          - "Conduct research on transfer learning, cross-modal learning, multi-view clustering, and computer vision."
+    Awards and Honors:
+      - bullet: "**Outstanding Young Research Talent International Training Program**, Guangdong University of Technology, 2025."
+      - bullet: "**National Scholarship**, Guangdong University of Technology, 2025."
+      - bullet: "**Top Innovative Postgraduate Talent Training Program**, Guangdong University of Technology, 2024 (successfully completed and passed the final assessment)."
+      - bullet: "**Best Paper Award**, International Conference on Web Information Systems Engineering (WISE), 2023."
+      - bullet: "**First-Class Scholarship**, received for seven years during undergraduate and postgraduate studies."
+      - bullet: "**Postgraduate Recommendation**, Guangdong Ocean University, 2020."
+      - bullet: "**National Scholarship**, Guangdong Ocean University, 2019."
 
     Academic Community Service:
-      - bullet: "Reviewer for: IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TSMC: Applications and Reviews, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, Pattern Recognition, Information Sciences, Expert Systems with Applications, Knowledge-Based Systems, and other journals."
+      - bullet: "** Reviewer for: **"
+      - bullet: "IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TSMC: Applications and Reviews, IEEE TIFS, IEEE TMM, IEEE TCSS, and IEEE TCSVT."
+      - bullet: "IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, Pattern Recognition, Information Sciences, Expert Systems with Applications, and Knowledge-Based Systems."
+      - bullet: "WISE 2026."
 
-    Publications:
+    Selected Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -135,13 +138,3 @@ cv:
         publisher: "Neurocomputing"
         releaseDate: "2023"
         url: "https://doi.org/10.1016/j.neucom.2023.126624"
-      - title: "Domain Adaptation via Incremental Confidence Samples into Classification"
-        authors:
-          - "Shaohua Teng"
-          - "Zefeng Zheng"
-          - "Naiqi Wu"
-          - "Lunke Fei"
-          - "Wei Zhang"
-        publisher: "International Journal of Intelligent Systems"
-        releaseDate: "2022"
-        url: "https://doi.org/10.1002/int.22629"

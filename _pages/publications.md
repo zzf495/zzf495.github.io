@@ -7,9 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-Publication entries are generated from BibTeX. My publication record and researcher identifiers are available through [Google Scholar](https://scholar.google.com/citations?user=dpISYowAAAAJ) and [ORCID](https://orcid.org/0000-0003-0748-4346).
-
-Rank labels refer to the venue rather than the individual paper. CCF categories follow the CCF recommended list, while JCR quartiles are based on the latest publicly available data used here; categories and quartiles may vary by year and subject category.
+Rank labels refer to the venue rather than the individual paper. CCF categories follow the China Computer Federation (CCF) recommended list, while Journal Citation Reports (JCR) quartiles are based on the latest publicly available data. Categories and quartiles may vary by year and subject category.
 
 <div class="publication-filters" role="group" aria-label="Publication filters">
   <button type="button" class="btn btn-sm btn-primary mr-2" data-publication-filter="all" aria-pressed="true">All</button>
