@@ -17,15 +17,35 @@ nav_order: 3
 
 <div class="publication-filters" role="group" aria-label="Publication filters">
   <button type="button" class="btn btn-sm btn-primary mr-2" data-publication-filter="all" aria-pressed="true">All</button>
-  <button type="button" class="btn btn-sm btn-outline-primary mr-2" data-publication-filter="lead" aria-pressed="false">First/Corresponding</button>
+  <button type="button" class="btn btn-sm btn-outline-primary mr-2" data-publication-filter="first" aria-pressed="false">First Author</button>
+  <button type="button" class="btn btn-sm btn-outline-primary mr-2" data-publication-filter="corresponding" aria-pressed="false">Corresponding Author</button>
+  <button type="button" class="btn btn-sm btn-outline-primary mr-2" data-publication-filter="first-corresponding" aria-pressed="false">First + Corresponding</button>
   <button type="button" class="btn btn-sm btn-outline-primary" data-publication-filter="collaborative" aria-pressed="false">Collaborative</button>
 </div>
 
-<div data-publication-panel="lead">
-  <h2>First-Author and Corresponding-Author Publications</h2>
+<div data-publication-panel="first">
+  <h2>First-Author Publications</h2>
   <div class="publications">
 
-  {% bibliography --query @*[classification=first_or_corresponding] %}
+  {% bibliography --query @*[classification=first_author] %}
+
+  </div>
+</div>
+
+<div data-publication-panel="corresponding">
+  <h2>Corresponding-Author Publications</h2>
+  <div class="publications">
+
+  {% bibliography --query @*[classification=corresponding_author] %}
+
+  </div>
+</div>
+
+<div data-publication-panel="first-corresponding">
+  <h2>First-Author + Corresponding-Author Publications</h2>
+  <div class="publications">
+
+  {% bibliography --query @*[author_role=first_or_corresponding] %}
 
   </div>
 </div>
@@ -46,7 +66,8 @@ nav_order: 3
 
     const setPublicationView = (view) => {
       panels.forEach((panel) => {
-        panel.hidden = view !== "all" && panel.dataset.publicationPanel !== view;
+        const panelName = panel.dataset.publicationPanel;
+        panel.hidden = view === "all" ? panelName === "first-corresponding" : panelName !== view;
       });
       buttons.forEach((button) => {
         const active = button.dataset.publicationFilter === view;
