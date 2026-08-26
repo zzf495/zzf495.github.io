@@ -9,6 +9,14 @@ nav_order: 3
 
 Rank labels refer to the venue rather than the individual paper. CCF categories follow the China Computer Federation (CCF) recommended list, while Journal Citation Reports (JCR) quartiles are based on the latest publicly available data. Categories and quartiles may vary by year and subject category.
 
+<style>
+  .publications .publication-rank {
+    display: inline-block;
+    margin-left: 0.75rem;
+    white-space: nowrap;
+  }
+</style>
+
 <div class="publication-filters" role="group" aria-label="Publication filters">
   <button type="button" class="btn btn-sm btn-primary mr-2" data-publication-filter="all" aria-pressed="true">All</button>
   <button type="button" class="btn btn-sm btn-outline-primary mr-2" data-publication-filter="lead" aria-pressed="false">First/Corresponding</button>

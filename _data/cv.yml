@@ -53,10 +53,7 @@ cv:
       - bullet: "**National Scholarship**, Guangdong Ocean University, 2019."
 
     Academic Community Service:
-      - bullet: "** Reviewer for: **"
-      - bullet: "IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TSMC: Applications and Reviews, IEEE TIFS, IEEE TMM, IEEE TCSS, and IEEE TCSVT."
-      - bullet: "IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, Pattern Recognition, Information Sciences, Expert Systems with Applications, and Knowledge-Based Systems."
-      - bullet: "WISE 2026."
+      - bullet: "**Reviewer for**:IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, PR, INS, ESWA, KBS, and WISE2026."
 
     Selected Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
@@ -67,8 +64,8 @@ cv:
           - "Wei Zhang"
           - "Yiqing He"
           - "NaiQi Wu"
-        publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-        releaseDate: "2026"
+        journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        date: "2026"
       - title: "Multi-Granularity Decomposition and Hierarchical Semantics Learning for Domain Adaptation Retrieval"
         authors:
           - "Shaohua Teng"
@@ -78,8 +75,8 @@ cv:
           - "Naiqi Wu"
           - "Hongshu Li"
           - "Zefeng Zheng"
-        publisher: "IEEE Transactions on Multimedia"
-        releaseDate: "2026"
+        journal: "IEEE Transactions on Multimedia"
+        date: "2026"
       - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -87,8 +84,8 @@ cv:
           - "Luyao Teng"
           - "Wei Zhang"
           - "NaiQi Wu"
-        publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-        releaseDate: "2025"
+        journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        date: "2025"
         url: "https://doi.org/10.1109/TPAMI.2024.3507534"
       - title: "Micro-community Domain Adaptation"
         authors:
@@ -97,15 +94,15 @@ cv:
           - "Luyao Teng"
           - "Naiqi Wu"
           - "Wei Zhang"
-        publisher: "Pattern Recognition"
-        releaseDate: "2025"
+        journal: "Pattern Recognition"
+        date: "2025"
         url: "https://doi.org/10.1016/j.patcog.2024.111270"
       - title: "Consensus and Diversity-fusion Partial-view-shared Multi-view Learning"
         authors:
           - "Luyao Teng"
           - "Zefeng Zheng"
-        publisher: "Neurocomputing"
-        releaseDate: "2025"
+        journal: "Neurocomputing"
+        date: "2025"
         url: "https://doi.org/10.1016/j.neucom.2024.128687"
       - title: "Kernel Transfer Learning With Dual-Direction Semantic Similarity for Domain Adaptation"
         authors:
@@ -114,8 +111,8 @@ cv:
           - "Wei Zhang"
           - "Naiqi Wu"
           - "Shaohua Teng"
-        publisher: "IEEE/CAA Journal of Automatica Sinica"
-        releaseDate: "2023"
+        journal: "IEEE/CAA Journal of Automatica Sinica"
+        date: "2023"
         url: "https://doi.org/10.1109/JAS.2023.123342"
       - title: "Adversarial Graph Embedding with Cross-domain Semantic Consistency for Unsupervised Domain Adaptation"
         authors:
@@ -124,8 +121,8 @@ cv:
           - "Naiqi Wu"
           - "Luyao Teng"
           - "Wei Zhang"
-        publisher: "IEEE/CAA Journal of Automatica Sinica"
-        releaseDate: "2023"
+        journal: "IEEE/CAA Journal of Automatica Sinica"
+        date: "2023"
         url: "https://doi.org/10.1109/JAS.2023.123318"
       - title: "Selected Confidence Sample Labeling for Domain Adaptation"
         authors:
@@ -135,6 +132,6 @@ cv:
           - "Luyao Teng"
           - "Wei Zhang"
           - "Lunke Fei"
-        publisher: "Neurocomputing"
-        releaseDate: "2023"
+        journal: "Neurocomputing"
+        date: "2023"
         url: "https://doi.org/10.1016/j.neucom.2023.126624"
