@@ -7,9 +7,8 @@ cv:
   email: "coding495@163.com"
   location: "Guangzhou, China"
   summary: >-
-    Ph.D. candidate at Guangdong University of Technology working on machine learning,
-    clustering, transfer learning, and domain adaptation. I develop reproducible research
-    software and study graph-based, semantic, and multi-view learning methods.
+    Ph.D. candidate at Guangdong University of Technology. Research interests include
+    transfer learning, cross-modal learning, multi-view clustering, and computer vision.
   social_networks:
     - network: GitHub
       username: zzf495
@@ -25,7 +24,7 @@ cv:
         start_date: "2023"
         end_date: "present"
         highlights:
-          - "Research interests: machine learning, clustering, and transfer learning."
+          - "Research interests: transfer learning, cross-modal learning, multi-view clustering, and computer vision."
       - institution: "Guangdong University of Technology"
         location: "Guangzhou, China"
         area: "Computer Science and Technology"
@@ -45,8 +44,7 @@ cv:
         start_date: "2023"
         end_date: "present"
         highlights:
-          - "Conduct research on transfer learning, domain adaptation, clustering, and multi-view learning."
-          - "Maintain public implementations that support algorithmic reproducibility and comparison."
+          - "Conduct research on transfer learning, cross-modal learning, multi-view clustering, and computer vision."
 
     Publications:
       - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
@@ -59,6 +57,26 @@ cv:
         publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
         releaseDate: "2025"
         url: "https://doi.org/10.1109/TPAMI.2024.3507534"
+      - title: "Kernel Transfer Learning With Dual-Direction Semantic Similarity for Domain Adaptation"
+        authors:
+          - "Zefeng Zheng"
+          - "Luyao Teng"
+          - "Wei Zhang"
+          - "Naiqi Wu"
+          - "Shaohua Teng"
+        publisher: "IEEE/CAA Journal of Automatica Sinica"
+        releaseDate: "2023"
+        url: "https://doi.org/10.1109/JAS.2023.123342"
+      - title: "Adversarial Graph Embedding with Cross-domain Semantic Consistency for Unsupervised Domain Adaptation"
+        authors:
+          - "Shaohua Teng"
+          - "Zefeng Zheng"
+          - "Naiqi Wu"
+          - "Luyao Teng"
+          - "Wei Zhang"
+        publisher: "IEEE/CAA Journal of Automatica Sinica"
+        releaseDate: "2023"
+        url: "https://doi.org/10.1109/JAS.2023.123318"
       - title: "Micro-community Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -79,6 +97,17 @@ cv:
           - "Lunke Fei"
         publisher: "Neurocomputing"
         releaseDate: "2023"
+        url: "https://doi.org/10.1016/j.neucom.2023.126624"
+      - title: "Domain Adaptation via Incremental Confidence Samples into Classification"
+        authors:
+          - "Shaohua Teng"
+          - "Zefeng Zheng"
+          - "Naiqi Wu"
+          - "Lunke Fei"
+          - "Wei Zhang"
+        publisher: "International Journal of Intelligent Systems"
+        releaseDate: "2022"
+        url: "https://doi.org/10.1002/int.22629"
       - title: "Consensus and Diversity-fusion Partial-view-shared Multi-view Learning"
         authors:
           - "Luyao Teng"
@@ -86,30 +115,3 @@ cv:
         publisher: "Neurocomputing"
         releaseDate: "2025"
         url: "https://doi.org/10.1016/j.neucom.2024.128687"
-
-    Projects:
-      - name: "Feature Selection & Clustering Methods Reimplementation"
-        url: "https://github.com/zzf495/Reimplementation-of-Attractive-Feature-Selection-and-Clustering-Methods"
-        highlights:
-          - "MATLAB implementations of feature selection, clustering, and subspace learning methods."
-          - "Includes executable demonstrations for supervised and unsupervised settings."
-      - name: "ICSC: Incremental Confidence Samples into Classification"
-        url: "https://github.com/zzf495/ICSC"
-        highlights:
-          - "Public implementation of Domain Adaptation via Incremental Confidence Samples into Classification."
-      - name: "SCSL: Selected Confidence Sample Labeling"
-        url: "https://github.com/zzf495/SCSL"
-        highlights:
-          - "Reproducible implementation for confidence-sample selection and labeling in domain adaptation."
-      - name: "CDPMVL: Partial-View-Shared Multi-View Learning"
-        url: "https://github.com/zzf495/CDPMVL"
-        highlights:
-          - "Research software for consensus and diversity-fusion partial-view-shared multi-view learning."
-
-    Skills:
-      - name: "Research"
-        level: "Advanced"
-        keywords: "Machine Learning, Transfer Learning, Domain Adaptation, Clustering, Multi-view Learning"
-      - name: "Technical"
-        level: "Advanced"
-        keywords: "MATLAB, Reproducible Research, Algorithm Evaluation, Git, GitHub"
