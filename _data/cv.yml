@@ -47,6 +47,16 @@ cv:
           - "Conduct research on transfer learning, cross-modal learning, multi-view clustering, and computer vision."
 
     Publications:
+      - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
+        authors:
+          - "Zefeng Zheng"
+          - "Shaohua Teng"
+          - "Luyao Teng"
+          - "Wei Zhang"
+          - "Yiqing He"
+          - "NaiQi Wu"
+        publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        releaseDate: "2026"
       - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -57,6 +67,23 @@ cv:
         publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
         releaseDate: "2025"
         url: "https://doi.org/10.1109/TPAMI.2024.3507534"
+      - title: "Micro-community Domain Adaptation"
+        authors:
+          - "Zefeng Zheng"
+          - "Shaohua Teng"
+          - "Luyao Teng"
+          - "Naiqi Wu"
+          - "Wei Zhang"
+        publisher: "Pattern Recognition"
+        releaseDate: "2025"
+        url: "https://doi.org/10.1016/j.patcog.2024.111270"
+      - title: "Consensus and Diversity-fusion Partial-view-shared Multi-view Learning"
+        authors:
+          - "Luyao Teng"
+          - "Zefeng Zheng"
+        publisher: "Neurocomputing"
+        releaseDate: "2025"
+        url: "https://doi.org/10.1016/j.neucom.2024.128687"
       - title: "Kernel Transfer Learning With Dual-Direction Semantic Similarity for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -77,16 +104,6 @@ cv:
         publisher: "IEEE/CAA Journal of Automatica Sinica"
         releaseDate: "2023"
         url: "https://doi.org/10.1109/JAS.2023.123318"
-      - title: "Micro-community Domain Adaptation"
-        authors:
-          - "Zefeng Zheng"
-          - "Shaohua Teng"
-          - "Luyao Teng"
-          - "Naiqi Wu"
-          - "Wei Zhang"
-        publisher: "Pattern Recognition"
-        releaseDate: "2025"
-        url: "https://doi.org/10.1016/j.patcog.2024.111270"
       - title: "Selected Confidence Sample Labeling for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -108,10 +125,3 @@ cv:
         publisher: "International Journal of Intelligent Systems"
         releaseDate: "2022"
         url: "https://doi.org/10.1002/int.22629"
-      - title: "Consensus and Diversity-fusion Partial-view-shared Multi-view Learning"
-        authors:
-          - "Luyao Teng"
-          - "Zefeng Zheng"
-        publisher: "Neurocomputing"
-        releaseDate: "2025"
-        url: "https://doi.org/10.1016/j.neucom.2024.128687"
