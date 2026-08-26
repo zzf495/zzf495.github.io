@@ -3,10 +3,9 @@
 # institutional records on 2026-08-26.
 cv:
   name: "Zefeng Zheng (郑泽锋)"
-  label: "Ph.D. Candidate in Computer Science and Technology"
   email: "coding495@163.com"
   location: "Guangzhou, China"
-  summary: I am a Ph.D. candidate in Computer Science and Technology at Guangdong University of Technology (GDUT), Guangzhou, China, under the supervision of Prof. Shaohua Teng. My research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision.
+  summary: "I am a Ph.D. candidate in Computer Science and Technology at Guangdong University of Technology (GDUT), Guangzhou, China, under the supervision of Prof. Shaohua Teng. My research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision."
   social_networks:
     - network: GitHub
       username: zzf495
@@ -54,6 +53,7 @@ cv:
         details: "IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, PR, INS, ESWA, KBS, and WISE2026."
     
     
+    
     Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
         authors:
@@ -64,8 +64,7 @@ cv:
           - "Yiqing He"
           - "NaiQi Wu"
         journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-        date: "2026"
-
+        releaseDate: "2026"
       - title: "Multi-Granularity Decomposition and Hierarchical Semantics Learning for Domain Adaptation Retrieval"
         authors:
           - "Shaohua Teng"
@@ -76,8 +75,7 @@ cv:
           - "Hongshu Li"
           - "Zefeng Zheng"
         journal: "IEEE Transactions on Multimedia"
-        date: "2026"
-
+        releaseDate: "2026"
       - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
@@ -86,5 +84,53 @@ cv:
           - "Wei Zhang"
           - "NaiQi Wu"
         journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-        date: "2025"
+        releaseDate: "2025"
         url: "https://doi.org/10.1109/TPAMI.2024.3507534"
+      - title: "Micro-community Domain Adaptation"
+        authors:
+          - "Zefeng Zheng"
+          - "Shaohua Teng"
+          - "Luyao Teng"
+          - "Naiqi Wu"
+          - "Wei Zhang"
+        journal: "Pattern Recognition"
+        releaseDate: "2025"
+        url: "https://doi.org/10.1016/j.patcog.2024.111270"
+      - title: "Consensus and Diversity-fusion Partial-view-shared Multi-view Learning"
+        authors:
+          - "Luyao Teng"
+          - "Zefeng Zheng"
+        journal: "Neurocomputing"
+        releaseDate: "2025"
+        url: "https://doi.org/10.1016/j.neucom.2024.128687"
+      - title: "Kernel Transfer Learning With Dual-Direction Semantic Similarity for Domain Adaptation"
+        authors:
+          - "Zefeng Zheng"
+          - "Luyao Teng"
+          - "Wei Zhang"
+          - "Naiqi Wu"
+          - "Shaohua Teng"
+        journal: "IEEE/CAA Journal of Automatica Sinica"
+        releaseDate: "2023"
+        url: "https://doi.org/10.1109/JAS.2023.123342"
+      - title: "Adversarial Graph Embedding with Cross-domain Semantic Consistency for Unsupervised Domain Adaptation"
+        authors:
+          - "Shaohua Teng"
+          - "Zefeng Zheng"
+          - "Naiqi Wu"
+          - "Luyao Teng"
+          - "Wei Zhang"
+        journal: "IEEE/CAA Journal of Automatica Sinica"
+        releaseDate: "2023"
+        url: "https://doi.org/10.1109/JAS.2023.123318"
+      - title: "Selected Confidence Sample Labeling for Domain Adaptation"
+        authors:
+          - "Zefeng Zheng"
+          - "Shaohua Teng"
+          - "Naiqi Wu"
+          - "Luyao Teng"
+          - "Wei Zhang"
+          - "Lunke Fei"
+        journal: "Neurocomputing"
+        releaseDate: "2023"
+        url: "https://doi.org/10.1016/j.neucom.2023.126624"
