@@ -32,7 +32,7 @@ cv:
         start_date: "2020"
         end_date: "2023"
       - institution: "Guangdong Ocean University"
-        location: "Guangdong, China"
+        location: "Zhanjiang, China"
         area: "Software Engineering"
         studyType: "B.S."
         start_date: "2016"
@@ -48,9 +48,10 @@ cv:
       - bullet: "**First-Class Scholarship**, received for seven years during undergraduate and postgraduate studies."
 
     Academic Community Service:
-      - label: "Reviewer for"
-        details: "IEEE TNNLS, IEEE/CAA JAS, IEEE TSMC: Systems, IEEE TETCI, IEEE TIFS, IEEE TMM, IEEE TCSS, IEEE TCSVT, IEEE TBD, IEEE TKDE, IEEE TCYB, IEEE JBHI, ACM TOMM, PR, INS, ESWA, KBS, and WISE2026."
-    
+      - label: "Journal Reviewer"
+        details: "IEEE TNNLS · IEEE/CAA JAS · IEEE TSMC: Systems · IEEE TETCI · IEEE TIFS · IEEE TMM · IEEE TCSS · IEEE TCSVT · IEEE TBD · IEEE TKDE · IEEE TCYB · IEEE JBHI · ACM TOMM · PR · INS · ESWA · KBS"
+      - label: "Program Committee"
+        details: "WISE 2026"
     
     
     Publications:
@@ -75,7 +76,7 @@ cv:
           - "Zefeng Zheng"
         journal: "IEEE Transactions on Multimedia"
         releaseDate: "2026"
-      - title: "Adaptive Graph Learning With Semantic Promotability for Domain Adaptation"
+      - title: "Adaptive Graph Learning with Semantic Promotability for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
           - "Shaohua Teng"
@@ -102,7 +103,7 @@ cv:
         journal: "Neurocomputing"
         releaseDate: "2025"
         url: "https://doi.org/10.1016/j.neucom.2024.128687"
-      - title: "Kernel Transfer Learning With Dual-Direction Semantic Similarity for Domain Adaptation"
+      - title: "Knowledge Transfer Learning via Dual Density Sampling for Resource-Limited Domain Adaptation"
         authors:
           - "Zefeng Zheng"
           - "Luyao Teng"
@@ -112,7 +113,7 @@ cv:
         journal: "IEEE/CAA Journal of Automatica Sinica"
         releaseDate: "2023"
         url: "https://doi.org/10.1109/JAS.2023.123342"
-      - title: "Adversarial Graph Embedding with Cross-domain Semantic Consistency for Unsupervised Domain Adaptation"
+      - title: "Adaptive Graph Embedding with Consistency and Specificity for Domain Adaptation"
         authors:
           - "Shaohua Teng"
           - "Zefeng Zheng"

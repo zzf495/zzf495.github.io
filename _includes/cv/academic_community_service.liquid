@@ -1,0 +1,50 @@
+{% comment %}
+  Badge-style renderer for Academic Community Service entries.
+  The source remains a RenderCV-compatible OneLineEntry (label/details).
+  Middle dots and commas are both accepted as venue separators.
+{% endcomment %}
+
+<style>
+  .cv-service-entry {
+    margin-bottom: 0.8rem;
+  }
+
+  .cv-service-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.45rem;
+    margin-left: 1rem;
+  }
+
+  .cv-service-badge {
+    display: inline-block;
+    padding: 0.25rem 0.65rem;
+    border: 1px solid rgba(0, 123, 255, 0.35);
+    border-radius: 999px;
+    background-color: rgba(0, 123, 255, 0.1);
+    font-size: 0.82rem;
+    line-height: 1.35;
+    white-space: nowrap;
+  }
+</style>
+
+{% for entry in entries %}
+  {% if entry.label %}
+    <div class="cv-service-entry card-text font-weight-light">
+      <strong>{{ entry.label }}:</strong>
+
+      {% if entry.details %}
+        {% assign service_items = entry.details | replace: '·', ',' | split: ',' %}
+        <div class="cv-service-badges">
+          {% for item in service_items %}
+            {% assign item = item | strip %}
+            {% if item != '' %}
+              <span class="cv-service-badge">{{ item }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}

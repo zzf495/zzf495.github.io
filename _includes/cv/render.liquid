@@ -10,6 +10,17 @@
   Both formats use the same unified rendering includes for consistent output
 {% endcomment %}
 
+<style>
+  /* The education include adds a location-pin icon before the location text. */
+  .cv .iconlocation {
+    display: none !important;
+  }
+
+  .cv p.location {
+    margin-left: 0 !important;
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -183,6 +194,9 @@
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
+              {% elsif section_title == 'Academic Community Service' %}
+                {% assign entries = section_entries %}
+                {% include cv/academic_community_service.liquid %}
               {% else %}
                 <!-- Generic section -->
                 {% for entry in section_entries %}

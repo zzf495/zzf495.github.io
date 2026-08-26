@@ -14,7 +14,11 @@ I received the M.S. degree in Computer Science and Technology from the School of
 
 
 
-I have published more than 20 papers in Science Citation Index (SCI)-indexed journals and China Computer Federation (CCF)-recommended conferences, including IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE/CAA Journal of Automatica Sinica (JAS), Pattern Recognition (PR), and IEEE Transactions on Multimedia (TMM). I have also served as a reviewer for several international journals, including IEEE Transactions on Multimedia (TMM), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), and IEEE/CAA Journal of Automatica Sinica (JAS).
+I have published more than 20 papers in Science Citation Index (SCI)-indexed journals and China Computer Federation (CCF)-recommended conferences, such as IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE/CAA Journal of Automatica Sinica (JAS), Pattern Recognition (PR), and IEEE Transactions on Multimedia (TMM). 
+
+
+
+I have also served as a reviewer for several international journals, such as IEEE Transactions on Multimedia (TMM), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), and IEEE/CAA Journal of Automatica Sinica (JAS).
 
 
 
