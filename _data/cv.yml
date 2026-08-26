@@ -10,6 +10,8 @@ cv:
       username: zzf495
     - network: ORCID
       username: "0000-0003-0748-4346"
+    - network: Google Scholar
+      username: dpISYowAAAAJ
 
   sections:
     Education:

@@ -69,7 +69,7 @@
         {% assign cv = site.data.cv.cv %}
 
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website or cv.social_networks %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
@@ -115,6 +115,33 @@
                     <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
                   </td>
                 </tr>
+              {% endif %}
+              {% if cv.social_networks %}
+                {% for social in cv.social_networks %}
+                  {% assign social_url = '' %}
+                  {% case social.network %}
+                    {% when 'GitHub' %}
+                      {% assign social_url = 'https://github.com/' | append: social.username %}
+                    {% when 'ORCID' %}
+                      {% assign social_url = 'https://orcid.org/' | append: social.username %}
+                    {% when 'Google Scholar' %}
+                      {% assign social_url = 'https://scholar.google.com/citations?user=' | append: social.username %}
+                    {% when 'ResearchGate' %}
+                      {% assign social_url = 'https://www.researchgate.net/profile/' | append: social.username %}
+                    {% when 'LinkedIn' %}
+                      {% assign social_url = 'https://www.linkedin.com/in/' | append: social.username %}
+                  {% endcase %}
+                  <tr>
+                    <td class="p-1 pr-2 font-weight-bold"><b>{{ social.network }}</b></td>
+                    <td class="p-1 pl-2 font-weight-light">
+                      {% if social_url != '' %}
+                        <a href="{{ social_url }}" target="_blank" rel="noopener noreferrer">{{ social.username }}</a>
+                      {% else %}
+                        {{ social.username }}
+                      {% endif %}
+                    </td>
+                  </tr>
+                {% endfor %}
               {% endif %}
             </table>
           </div>
