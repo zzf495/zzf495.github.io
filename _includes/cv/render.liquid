@@ -19,6 +19,21 @@
   .cv p.location {
     margin-left: 0 !important;
   }
+
+  /* Remove list markers from Education and Publications entries. */
+  .cv ul.list-group {
+    list-style: none !important;
+    padding-left: 0 !important;
+  }
+
+  .cv ul.list-group > li.list-group-item {
+    list-style-type: none !important;
+  }
+
+  .cv ul.list-group > li.list-group-item::marker {
+    content: none !important;
+    display: none !important;
+  }
 </style>
 
 <div class="post">
