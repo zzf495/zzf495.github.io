@@ -8,6 +8,10 @@ social: true
 news: false
 latest_posts: false
 selected_papers: false
+profile:
+  align: right
+  image: zzf495_profile.png
+  image_circular: true
 ---
 
 I received the M.S. degree in Computer Science and Technology from the School of Computer Science and Technology, Guangdong University of Technology (GDUT), Guangzhou, China, in 2023, and am currently pursuing the Ph.D. degree in the same field at GDUT, both under the supervision of Prof. [Shaohua Teng](https://jyxq.gdut.edu.cn/lxwm.jsp?urltype=news.NewsContentUrl&wbtreeid=1163&wbnewsid=4219). Since September 2025, I have been a visiting student at The Hong Kong Polytechnic University (PolyU), Hong Kong, China, under the supervision of Prof. [Qing Li](https://www.polyu.edu.hk/riaiot/people/riaiot-people/prof-li-qing/?sc_lang=en).
@@ -22,5 +26,43 @@ I have also served as a reviewer for several international journals, such as IEE
 
 
 
-My research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision, with a primary focus on shallow machine learning and its interpretable principles for developing deep learning methods. In transfer learning, my recent work focuses on source-free domain adaptation (SFDA), multi-source/multi-target transfer learning (MSDA/MTDA), open-set domain adaptation (OSDA), and domain generalization (DG). In cross-modal retrieval, I mainly study unequal-length cross-modal retrieval (Ul-CMH), unpaired cross-modal retrieval (Up-CMH), and noise-robust cross-modal retrieval (Nr-CMH). In multi-view learning, I focus on consistency, partially-consistency, and specificity multi-view clustering (CPS-MVC), where a preliminary idea can be found [here](https://doi.org/10.1016/j.neucom.2024.128687), . I also collaborate on related topics, including object detection, reinforcement learning, and scheduling.
+My research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision, with a primary focus on shallow machine learning and its interpretable principles for developing deep learning methods. In transfer learning, my recent work focuses on source-free domain adaptation (SFDA), multi-source/multi-target transfer learning (MSDA/MTDA), open-set domain adaptation (OSDA), and domain generalization (DG). In cross-modal retrieval, I mainly study unequal-length cross-modal retrieval (Ul-CMH), unpaired cross-modal retrieval (Up-CMH), incomplete cross-modal retrieval (ICMH), and noise-robust cross-modal retrieval (Nr-CMH). In multi-view learning, I focus on consistency, partially-consistency, and specificity multi-view clustering (CPS-MVC), where a preliminary idea can be found [here](https://doi.org/10.1016/j.neucom.2024.128687), . I also collaborate on related topics, including object detection, reinforcement learning, and scheduling.
 
+
+
+I would be delighted to collaborate on research with leading scholars. Please find my contact information below.
+
+<style>
+  .profile .profile-carousel-image {
+    transition: opacity 0.7s ease-in-out;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const profileImage = document.querySelector(".profile img");
+    if (!profileImage) return;
+
+    const images = [
+      "{{ '/assets/img/zzf495_profile.png' | relative_url }}",
+      "{{ '/assets/img/zzf495_profile_art.png' | relative_url }}"
+    ];
+    
+    profileImage.classList.add("profile-carousel-image");
+    images.slice(1).forEach((src) => {
+      const preload = new Image();
+      preload.src = src;
+    });
+    
+    let currentIndex = 0;
+    window.setInterval(function () {
+      profileImage.style.opacity = "0";
+      window.setTimeout(function () {
+        currentIndex = (currentIndex + 1) % images.length;
+        profileImage.src = images[currentIndex];
+        profileImage.alt = "Profile portrait";
+        profileImage.style.opacity = "1";
+      }, 700);
+    }, 5000);
+  });
+</script>
