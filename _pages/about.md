@@ -41,46 +41,4 @@ I would be delighted to collaborate on research with leading scholars. Please fi
     width: 220px;
     max-width: 100%;
   }
-
 </style>
-
-<script>
-  (function () {
-    function initProfileCarousel() {
-      const profileImage = document.querySelector(".profile img");
-      if (!profileImage) return;
-
-      if (window.profileCarouselTimer) {
-        window.clearInterval(window.profileCarouselTimer);
-      }
-
-      document.querySelectorAll(".profile source.responsive-img-srcset").forEach((source) => {
-        source.remove();
-      });
-
-      const images = [
-        "{{ '/assets/img/zzf495_profile.png' | relative_url }}",
-        "{{ '/assets/img/zzf495_profile_art.png' | relative_url }}"
-      ];
-
-      profileImage.classList.add("profile-carousel-image");
-      images.slice(1).forEach((src) => {
-        const preload = new Image();
-        preload.src = src;
-      });
-
-      let currentIndex = 0;
-      window.profileCarouselTimer = window.setInterval(function () {
-        currentIndex = (currentIndex + 1) % images.length;
-        profileImage.src = images[currentIndex];
-        profileImage.alt = "Profile portrait";
-      }, 5000);
-    }
-
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initProfileCarousel, { once: true });
-    } else {
-      initProfileCarousel();
-    }
-  })();
-</script>
