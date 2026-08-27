@@ -14,7 +14,7 @@ I received the M.S. degree in Computer Science and Technology from the School of
 
 
 
-I have published more than 20 papers in Science Citation Index (SCI)-indexed journals and China Computer Federation (CCF)-recommended conferences, such as IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE/CAA Journal of Automatica Sinica (JAS), Pattern Recognition (PR), and IEEE Transactions on Multimedia (TMM). 
+I have published more than 20 papers in Science Citation Index (SCI)-indexed journals and China Computer Federation (CCF)-recommended conferences, such as IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE Transactions on Multimedia (TMM), IEEE/CAA Journal of Automatica Sinica (JAS), and Pattern Recognition (PR).
 
 
 
@@ -22,4 +22,4 @@ I have also served as a reviewer for several international journals, such as IEE
 
 
 
-My current research interests include transfer learning, cross-modal retrieval, multi-view learning, and computer vision. 
+My research interests include **transfer learning, cross-modal retrieval, multi-view learning, and computer vision**. In transfer learning, my recent work focuses on **source-free domain adaptation (SFDA), multi-source/multi-target transfer learning (MSDA/MTDA), open-set domain adaptation (OSDA), and domain generalization (DG)**. In cross-modal retrieval, I mainly study **unequal-length cross-modal retrieval (Ul-CMH), unpaired cross-modal retrieval (Up-CMH), and noise-robust cross-modal retrieval (Nr-CMH)**. In multi-view learning, I focus on **consistency, partially-consistency, and specificity multi-view clustering (CPS-MVC)**, where a preliminary idea can be found [here](https://doi.org/10.1016/j.neucom.2024.128687), . I also collaborate on related topics, including **object detection, reinforcement learning, and scheduling**.
