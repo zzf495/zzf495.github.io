@@ -13,47 +13,7 @@
     width: 220px;
     max-width: 100%;
   }
-
-</style> <script>
-  (function () {
-    function initProfileCarousel() {
-      const profileImage = document.querySelector(".profile img");
-      if (!profileImage) return;
-
-      if (window.profileCarouselTimer) {
-        window.clearInterval(window.profileCarouselTimer);
-      }
-
-      document.querySelectorAll(".profile source.responsive-img-srcset").forEach((source) => {
-        source.remove();
-      });
-
-      const images = [
-        "/assets/img/zzf495_profile.png",
-        "/assets/img/zzf495_profile_art.png"
-      ];
-
-      profileImage.classList.add("profile-carousel-image");
-      images.slice(1).forEach((src) => {
-        const preload = new Image();
-        preload.src = src;
-      });
-
-      let currentIndex = 0;
-      window.profileCarouselTimer = window.setInterval(function () {
-        currentIndex = (currentIndex + 1) % images.length;
-        profileImage.src = images[currentIndex];
-        profileImage.alt = "Profile portrait";
-      }, 5000);
-    }
-
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initProfileCarousel, { once: true });
-    } else {
-      initProfileCarousel();
-    }
-  })();
-</script> </div> <div class="social"> <div class="contact-icons"> <a href="mailto:zhengzefeng2@mails.gdut.edu.cn" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://github.com/zzf495" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://scholar.google.com/citations?user=dpISYowAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://orcid.org/0000-0003-0748-4346" title="Orcid id" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> </div> <div class="contact-note">For research and collaboration enquiries, please get in touch by email. </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Zefeng Zheng. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. </div> </footer> <script>
+</style> </div> <div class="social"> <div class="contact-icons"> <a href="mailto:zhengzefeng2@mails.gdut.edu.cn" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://github.com/zzf495" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://scholar.google.com/citations?user=dpISYowAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://orcid.org/0000-0003-0748-4346" title="Orcid id" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> </div> <div class="contact-note">For research and collaboration enquiries, please get in touch by email. </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Zefeng Zheng. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
