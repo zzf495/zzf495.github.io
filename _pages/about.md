@@ -2,6 +2,11 @@
 layout: about
 title: Home
 permalink: /
+lang: en
+zh_url: /cn/
+en_url: /
+home_url: /
+cv_url: /cv/
 subtitle: ""
 nav: false
 social: true
@@ -13,6 +18,8 @@ profile:
   image: zzf495_profile.png
   image_circular: true
 ---
+
+{% include language_switcher.liquid %}
 
 I received the M.S. degree in Computer Science and Technology from the School of Computer Science and Technology, Guangdong University of Technology (GDUT), Guangzhou, China, in 2023, and am currently pursuing the Ph.D. degree in the same field at GDUT, both under the supervision of Prof. [Shaohua Teng](https://jyxq.gdut.edu.cn/lxwm.jsp?urltype=news.NewsContentUrl&wbtreeid=1163&wbnewsid=4219). Since September 2025, I have been a visiting student at The Hong Kong Polytechnic University (PolyU), Hong Kong, China, under the supervision of Prof. [Qing Li](https://www.polyu.edu.hk/riaiot/people/riaiot-people/prof-li-qing/?sc_lang=en).
 

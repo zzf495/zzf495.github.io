@@ -1,0 +1,42 @@
+<div class="language-switcher" aria-label="Language switcher">
+  {% if page.lang == 'zh' %}
+    <span aria-current="page">CN</span> /
+    <a href="{{ page.en_url | relative_url }}">EN</a>
+  {% else %}
+    <span aria-current="page">EN</span> /
+    <a href="{{ page.zh_url | relative_url }}">CN</a>
+  {% endif %}
+</div>
+
+<script>
+  (function () {
+    var homeUrl = {{ page.home_url | relative_url | jsonify }};
+    var cvUrl = {{ page.cv_url | relative_url | jsonify }};
+    var links = document.querySelectorAll('nav a, header a');
+
+    links.forEach(function (link) {
+      var href = link.getAttribute('href') || '';
+      var label = (link.textContent || '').trim().toLowerCase();
+      if (label === 'cv' || href === '{{ "/cv/" | relative_url }}') {
+        link.setAttribute('href', cvUrl);
+      }
+      if (label === 'home' || href === '{{ "/" | relative_url }}') {
+        link.setAttribute('href', homeUrl);
+      }
+    });
+  })();
+</script>
+
+<style>
+  .language-switcher {
+    margin: 0 0 1rem;
+    text-align: right;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .language-switcher a,
+  .language-switcher span {
+    margin: 0 0.2rem;
+  }
+</style>

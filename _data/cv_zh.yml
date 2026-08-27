@@ -1,10 +1,8 @@
-# RenderCV-format source of truth for the al-folio CV page.
-# Facts and references were checked against public author, publisher, and
-# institutional records on 2026-08-26.
+# 中文版简历数据，与 _data/cv.yml 使用相同的 RenderCV 结构。
 cv:
-  name: "Zefeng Zheng"
+  name: "郑泽锋"
   email: "zhengzefeng2@mails.gdut.edu.cn"
-  location: "Guangzhou, China"
+  location: "广州，中国"
   social_networks:
     - network: GitHub
       username: zzf495
@@ -15,47 +13,46 @@ cv:
 
   sections:
     Education:
-      - institution: "Guangdong University of Technology"
-        location: "Guangzhou, China"
-        area: "Computer Science and Technology"
-        studyType: "Ph.D. Candidate"
+      - institution: "广东工业大学"
+        location: "广州，中国"
+        area: "计算机科学与技术"
+        studyType: "博士研究生"
         start_date: "2023"
         end_date: "present"
-      - institution: "The Hong Kong Polytechnic University"
-        location: "Hong Kong, China"
-        area: "Department of Computing"
-        studyType: "Visiting Student"
+      - institution: "香港理工大学"
+        location: "香港，中国"
+        area: "电子计算学系"
+        studyType: "访问学生"
         start_date: "2025-09"
         end_date: "2026-09"
-      - institution: "Guangdong University of Technology"
-        location: "Guangzhou, China"
-        area: "Computer Science and Technology"
-        studyType: "M.S."
+      - institution: "广东工业大学"
+        location: "广州，中国"
+        area: "计算机科学与技术"
+        studyType: "硕士"
         start_date: "2020"
         end_date: "2023"
-      - institution: "Guangdong Ocean University"
-        location: "Zhanjiang, China"
-        area: "Software Engineering"
-        studyType: "B.S."
+      - institution: "广东海洋大学"
+        location: "湛江，中国"
+        area: "软件工程"
+        studyType: "学士"
         start_date: "2016"
         end_date: "2020"
 
     Awards and Honors:
-      - bullet: "**Outstanding Young Research Talent International Training Program**, Guangdong University of Technology, 2025."
-      - bullet: "**National Scholarship**, Guangdong University of Technology, 2025."
-      - bullet: "**Top Innovative Postgraduate Talent Training Program**, Guangdong University of Technology, 2024."
-      - bullet: "**Best Paper Award**, International Conference on Web Information Systems Engineering (WISE), 2023."
-      - bullet: "**Postgraduate Recommendation**, Guangdong Ocean University, 2020."
-      - bullet: "**National Scholarship**, Guangdong Ocean University, 2019."
-      - bullet: "**First-Class Scholarship**, received for seven years during undergraduate and postgraduate studies."
+      - bullet: "**优秀青年科研人才国际培养计划**，广东工业大学，2025年。"
+      - bullet: "**国家奖学金**，广东工业大学，2025年。"
+      - bullet: "**高层次创新型研究生人才培养计划**，广东工业大学，2024年。"
+      - bullet: "**最佳论文奖**，国际网络信息系统工程会议（WISE），2023年。"
+      - bullet: "**研究生推免资格**，广东海洋大学，2020年。"
+      - bullet: "**国家奖学金**，广东海洋大学，2019年。"
+      - bullet: "**一等奖学金**，本科及研究生阶段七年连续获得。"
 
     Academic Community Service:
-      - label: "Journal Reviewer"
+      - label: "期刊审稿人"
         details: "IEEE TNNLS · IEEE/CAA JAS · IEEE TSMC: Systems · IEEE TETCI · IEEE TIFS · IEEE TMM · IEEE TCSS · IEEE TCSVT · IEEE TBD · IEEE TKDE · IEEE TCYB · IEEE JBHI · ACM TOMM · PR · INS · ESWA · KBS"
-      - label: "Program Committee"
+      - label: "会议审稿人"
         details: "WISE 2026"
-    
-    
+
     Publications:
       - title: "Target-oriented Multi-granular Semantic-aware Network for Source-free Domain Adaptation"
         authors:
@@ -129,7 +126,7 @@ cv:
         authors:
           - "Zefeng Zheng"
           - "Shaohua Teng"
-          - "Naiqi Wu"
+          - "NaiQi Wu"
           - "Luyao Teng"
           - "Wei Zhang"
           - "Lunke Fei"
