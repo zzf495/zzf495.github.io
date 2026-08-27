@@ -21,11 +21,11 @@ profile:
 
 {% include language_switcher.liquid %}
 
-我于 2023 年获得广东工业大学计算机科学与技术学院计算机科学与技术专业硕士学位，目前在广东工业大学同一专业攻读博士学位，导师为[滕少华教授](https://jyxq.gdut.edu.cn/lxwm.jsp?urltype=news.NewsContentUrl&wbtreeid=1163&wbnewsid=4219)。自 2025 年 9 月起，我作为访问学生，在香港理工大学（PolyU）开展研究，合作导师为[李青教授](https://www.polyu.edu.hk/riaiot/people/riaiot-people/prof-li-qing/?sc_lang=en)。
+我于 2023 年获得广东工业大学计算机科学与技术学院计算机科学与技术专业硕士学位，目前在广东工业大学同一专业攻读博士学位，导师为[滕少华教授](https://jyxq.gdut.edu.cn/lxwm.jsp?urltype=news.NewsContentUrl&wbtreeid=1163&wbnewsid=4219)。自 2025 年 9 月起，我作为访问学生，在香港理工大学开展研究，合作导师为[李青教授](https://www.polyu.edu.hk/riaiot/people/riaiot-people/prof-li-qing/?sc_lang=en)。
 
 
 
-我的研究兴趣包括**迁移学习、跨模态检索、多视图学习**和**计算机视觉**。在迁移学习方面，我近期主要研究无源域适应（SFDA）、多源/多目标迁移学习（MSDA/MTDA）、开放集域适应（OSDA）和域泛化（DG）。在跨模态检索方面，我主要研究非等长跨模态检索（Ul-CMH）、非配对跨模态检索（Up-CMH）、不完全跨模态检索（ICMH）和噪声恢复的跨模态检索（Nr-CMH）。在多视图学习方面，我关注一致性、部分一致性和特异性多视图聚类（CPS-MVC），其初步成果可见[论文](https://doi.org/10.1016/j.neucom.2024.128687)。此外，我也参与目标检测、强化学习和调度/指派等合作研究。
+我的研究兴趣包括**迁移学习、跨模态检索、多视图学习**和**计算机视觉**，专注于浅层机器学习，并利用机器学习的可解释性指导深度网络的设计。在迁移学习方面，我近期主要研究无源域适应（SFDA）、多源/多目标迁移学习（MSDA/MTDA）、开放集域适应（OSDA）和域泛化（DG），并致力于研究目标引导的一致性与特异性学习方法。在跨模态检索方面，我主要研究非等长跨模态检索（Ul-CMH）、非配对跨模态检索（Up-CMH）、不完全跨模态检索（ICMH）和噪声恢复的跨模态检索（Nr-CMH）。在多视图学习方面，我主要研究一致性、部分一致性和特异性多视图聚类（CPS-MVC），其初步成果可见[论文](https://doi.org/10.1016/j.neucom.2024.128687)。此外，我也参与目标检测、强化学习和调度/指派等合作研究。
 
 
 

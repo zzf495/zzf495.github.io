@@ -27,6 +27,23 @@
   })();
 </script>
 
+{% if page.lang == 'zh' %}
+  <script>
+    function localizePageTitle() {
+      document.querySelectorAll('h1.post-title').forEach(function (heading) {
+        if (heading.textContent.trim() === 'Zefeng Zheng') {
+          heading.textContent = '郑泽锋';
+        }
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', localizePageTitle);
+    } else {
+      localizePageTitle();
+    }
+  </script>
+{% endif %}
+
 <style>
   .language-switcher {
     margin: 0 0 1rem;
