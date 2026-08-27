@@ -1,5 +1,28 @@
 ---
 ---
+<style>
+  /* Publication metrics are maintained in _data/journal_metrics.json. */
+  .cv-rank-badge {
+    display: inline-block;
+    margin-left: 0.35rem;
+    padding: 0.12rem 0.42rem;
+    border-radius: 0.28rem;
+    color: #fff;
+    font-size: 0.74rem;
+    font-weight: 600;
+    line-height: 1.25;
+    white-space: nowrap;
+  }
+
+  .rank-ccf-a { background-color: #7f1d1d; }
+  .rank-ccf-b { background-color: #b45309; }
+  .rank-ccf-c { background-color: #166534; }
+  .rank-jcr-q1 { background-color: #1e3a8a; }
+  .rank-jcr-q2 { background-color: #2563eb; }
+  .rank-jcr-q3 { background-color: #0f766e; }
+  .rank-jcr-q4 { background-color: #64748b; }
+  .rank-if { background-color: #6b21a8; }
+</style>
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -188,8 +211,21 @@
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
     {% assign entryadditional = '' %}
-    {% if entry.additional_info %}
-      {% capture entryadditional %}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+    {% if entry.rank_key and site.data.journal_metrics[entry.rank_key] %}
+      {% assign journal_metrics = site.data.journal_metrics[entry.rank_key] %}
+      {% capture entryadditional %}
+        {% if journal_metrics.ccf %}
+          {% assign ccf_class = journal_metrics.ccf | downcase | replace: ' ', '-' %}
+          <span class="cv-service-badge cv-rank-badge rank-{{ ccf_class }}">{{ journal_metrics.ccf }}</span>
+        {% endif %}
+        {% if journal_metrics.jcr %}
+          {% assign jcr_class = journal_metrics.jcr | downcase | replace: ' ', '-' %}
+          <span class="cv-service-badge cv-rank-badge rank-{{ jcr_class }}">{{ journal_metrics.jcr }}</span>
+        {% endif %}
+        {% if journal_metrics.impact_factor %}
+          <span class="cv-service-badge cv-rank-badge rank-if"{% if journal_metrics.impact_factor_year %} title="Journal Impact Factor ({{ journal_metrics.impact_factor_year }})"{% endif %}>IF {{ journal_metrics.impact_factor }}</span>
+        {% endif %}
+      {% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}

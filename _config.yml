@@ -400,6 +400,7 @@ filtered_bibtex_keywords:
     pmid,
     poster,
     preview,
+    rank_key,
     research_category,
     selected,
     slides,
