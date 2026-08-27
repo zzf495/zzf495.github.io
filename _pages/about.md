@@ -42,9 +42,6 @@ I would be delighted to collaborate on research with leading scholars. Please fi
     max-width: 100%;
   }
 
-  .profile .profile-carousel-image {
-    transition: opacity 0.7s ease-in-out;
-  }
 </style>
 
 <script>
@@ -56,6 +53,10 @@ I would be delighted to collaborate on research with leading scholars. Please fi
       if (window.profileCarouselTimer) {
         window.clearInterval(window.profileCarouselTimer);
       }
+
+      document.querySelectorAll(".profile source.responsive-img-srcset").forEach((source) => {
+        source.remove();
+      });
 
       const images = [
         "{{ '/assets/img/zzf495_profile.png' | relative_url }}",
@@ -70,13 +71,9 @@ I would be delighted to collaborate on research with leading scholars. Please fi
 
       let currentIndex = 0;
       window.profileCarouselTimer = window.setInterval(function () {
-        profileImage.style.opacity = "0";
-        window.setTimeout(function () {
-          currentIndex = (currentIndex + 1) % images.length;
-          profileImage.src = images[currentIndex];
-          profileImage.alt = "Profile portrait";
-          profileImage.style.opacity = "1";
-        }, 700);
+        currentIndex = (currentIndex + 1) % images.length;
+        profileImage.src = images[currentIndex];
+        profileImage.alt = "Profile portrait";
       }, 5000);
     }
 
