@@ -33,7 +33,11 @@ I have also served as a reviewer for several international journals, such as IEE
 
 
 
-My research interests include **transfer learning, cross-modal retrieval, multi-view learning**, and **computer vision**, with a primary focus on shallow machine learning and its interpretable principles for developing deep learning methods. In transfer learning, my recent work focuses on source-free domain adaptation (SFDA), multi-source/multi-target transfer learning (MSDA/MTDA), open-set domain adaptation (OSDA), and domain generalization (DG), with a specialization in studying target-oriented mechanisms for consistent and specific learning. In cross-modal retrieval, I mainly study unequal-length cross-modal retrieval (Ul-CMH), unpaired cross-modal retrieval (Up-CMH), incomplete cross-modal retrieval (ICMH), and noise-robust cross-modal retrieval (Nr-CMH). In multi-view learning, I focus on consistency, partial-consistency, and specificity multi-view clustering (CPS-MVC), where a preliminary idea can be found [here](https://doi.org/10.1016/j.neucom.2024.128687). I also collaborate on related topics, including object detection, reinforcement learning, and scheduling.
+My research interests include **transfer learning, cross-modal retrieval, multi-view learning**, and **computer vision**, with a primary focus on shallow machine learning and leveraging its interpretable principles to guide the design of deep learning methods. Rather than relying on increasingly deep architectures or stacked modules, I am particularly interested in exploring **principled, interpretable, and elegant designs** for deep learning.
+
+
+
+In transfer learning, my recent work focuses on **source-free domain adaptation (SFDA), multi-source/multi-target transfer learning (MSDA/MTDA), open-set domain adaptation (OSDA), and domain generalization (DG)**, with particular emphasis on **target-oriented mechanisms for consistency and specificity learning**. In cross-modal retrieval, I mainly study **unequal-length cross-modal retrieval (Ul-CMH), unpaired cross-modal retrieval (Up-CMH), incomplete cross-modal retrieval (ICMH), and noise-robust cross-modal retrieval (Nr-CMH)**. In multi-view learning, I focus on **consistency, partial-consistency, and specificity learning for multi-view clustering (CPS-MVC)**, with a preliminary study available [here](https://doi.org/10.1016/j.neucom.2024.128687). I also collaborate on related topics, including **object detection, reinforcement learning, and scheduling/assignment problems**.
 
 
 
