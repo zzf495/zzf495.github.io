@@ -67,6 +67,7 @@ cv:
           - "NaiQi Wu"
         journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
         releaseDate: "2026"
+        url: "https://doi.org/10.1109/TPAMI.2026.3729205"
       - title: "Multi-Granularity Decomposition and Hierarchical Semantics Learning for Domain Adaptation Retrieval"
         authors:
           - "Shaohua Teng"
@@ -78,6 +79,7 @@ cv:
           - "Zefeng Zheng"
         journal: "IEEE Transactions on Multimedia"
         releaseDate: "2026"
+        url: "https://doi.org/10.1109/TMM.2026.3732961"
       - title: "Adaptive Graph Learning with Semantic Promotability for Domain Adaptation"
         authors:
           - "Zefeng Zheng"
